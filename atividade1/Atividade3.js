@@ -1,8 +1,5 @@
 const leia = require('readline-sync');
-let bruto;
-let noturno;
-let extras;
-let descontos;
+let bruto, noturno, extras, descontos;
 
 bruto = leia.questionFloat("\nInsira o salario bruto: ", {limitMessage: '\nDigite um valor de numero real'});
 noturno = leia.questionFloat("\nInsira o adicional noturno: ", {limitMessage: '\nDigite um valor de numero real'});

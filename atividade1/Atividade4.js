@@ -1,8 +1,5 @@
 const leia = require('readline-sync');
-let numero1;
-let numero2;
-let numero3;
-let numero4;
+let numero1, numero2, numero3, numero4;
 
 numero1 = leia.questionFloat("\nInsira o numero1: ", {limitMessage: '\nDigite um valor de numero real'});
 numero2 = leia.questionFloat("\nInsira o numero2: ", {limitMessage: '\nDigite um valor de numero real'});
