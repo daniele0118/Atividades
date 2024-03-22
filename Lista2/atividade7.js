@@ -15,16 +15,16 @@ codigo = leia.questionFloat("\nDigite o codigo da operacao: ");
 
 switch (codigo) {
     case 1:
-        console.log("\n" + num1 + " + " + num2 + " = " + (num1+num2));
+        console.log(`\n${num1} + ${num2} = ${num1+num2}`);
         break;
     case 2:
-        console.log("\n" + num1 + " - " + num2 + " = " + (num1-num2));
+        console.log(`\n${num1} - ${num2} = ${num1-num2}`);
         break;
     case 3:
-        console.log("\n" + num1 + " x " + num2 + " = " + (num1*num2));
+        console.log(`\n${num1} x ${num2} = ${num1*num2}`);
         break;
     case 4:
-        console.log("\n" + num1 + " / " + num2 + " = " + (num1/num2));
+        console.log(`\n${num1} / ${num2} = ${num1/num2}`);
         break;
     default:
         console.log("\nOperacao invalida!");

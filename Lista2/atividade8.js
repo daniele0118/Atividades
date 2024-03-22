@@ -14,19 +14,19 @@ codigo = leia.questionInt("\nDigite o codigo da operacao: ");
 
 switch (codigo) {
     case 1:
-        console.log("\nSaldo:" + saldo );
+        console.log(`\nSaldo: ${saldo}`);
         break;
     case 2:
         valor = leia.questionFloat("\nDigite o valor do saque: ");
         if( valor > saldo){
             console.log("\nSaldo insuficiente!");
         }else{
-            console.log("\nNovo saldo:" + (saldo - valor));
+            console.log(`\nNovo saldo: ${saldo - valor}`);
         }
         break;
     case 3:
         valor = leia.questionFloat("\nDigite o valor do deposito: ");
-        console.log("\nNovo saldo:" + (saldo + valor));
+        console.log(`\nNovo saldo: ${saldo + valor}`);
         break;
     default:
         console.log("\nOperacao invalida!");

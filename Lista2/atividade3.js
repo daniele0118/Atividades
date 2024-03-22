@@ -8,13 +8,13 @@ idade = leia.questionInt("\nDigite a idade: ", {limitMessage: '\nDigite uma idad
 doador = leia.keyInYNStrict("\nJa e doador de sangue: ");
 
 if( idade >= 18 && idade <= 60){
-    console.log("\n" + nome + " esta apto para doar sangue!");
+    onsole.log(`\n${nome} esta apto para doar sangue!`);
 }else if( idade > 60 && idade <= 69){
     if(doador){
-        console.log("\n" + nome + " esta apto para doar sangue!");
+        console.log(`\n${nome} esta apto para doar sangue!`);
     }else{
-        console.log("\n" + nome + " nao esta apto para doar sangue");
+        console.log(`\n${nome} nao esta apto para doar sangue`);
     }
 }else{
-    console.log("\n" + nome + " nao esta apto para doar sangue");
+    console.log(`\n${nome} nao esta apto para doar sangue`);
 }
